@@ -1,9 +1,9 @@
- #include <Stepper.h> // Include the header file
+ #include <Stepper.h>  
 
-// change this to the number of steps on your motor
+ 
 #define STEPS 32
 
-// create an instance of the stepper class using the steps and pins
+ 
 Stepper stepper1(STEPS, 8, 10, 9, 11);
 Stepper stepper2(STEPS, 8, 10, 9, 11);
 
